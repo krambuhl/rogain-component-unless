@@ -1,5 +1,5 @@
 const Empty = require('rogain-component-empty');
-const splitTree = require('rogain-utils').splitTree;
+const splitTrees = require('rogain-utils').splitTrees;
 module.exports = function Unless(tree, props) {
   if (!tree.attrs.value) {
     return Empty(tree, props);
